@@ -18,7 +18,6 @@ let label = "listening";
 // Teachable Machine model URL:
 let soundModelURL = 'https://nini0924.github.io/kk2002/model.json';
 
-
 function preload() {
   // Load the model
   classifier = ml5.soundClassifier(soundModelURL);
